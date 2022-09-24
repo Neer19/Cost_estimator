@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estimator</title>
+
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/new project1/costimater/estimator-page.css">
+
+</head>
+<body >
+  <!--input values-->
+  <div class="mainbody">
+    <div class="topnav">
+      <header  class="header"> <h1>Costimater</h1> 
+     </header>
+   </div>
+     
+    <div class="nav">
+      <a href="/new project1/costimater/index.html">Home</a>
+      <a href="/new project1/costimater/estimator.html">Estimator</a>
+      <a href="/new project1/costimater/Contact us.html">Contect us</a>
+      <a href="#">About us</a>
+    </div>
+
+    <div class="dropdown">
+      <div class="content">
+        <p>Calculator Types</p>
+      </div>
+   
+    <ul class="navigation">
+     <li>
+       <a href="/new project1/costimater/estimator.html">
+         Construction Cost
+       </a>
+     </li>
+     <li>
+       <a href="/new project1/costimater/brick.html">
+         Brick 
+       </a>
+     </li>
+     <li>                                             
+       <a href="/new project1/costimater/cement.html">
+         cement
+       </a>
+     </li>
+     <li>
+       <a href="/new project1/costimater/water.html">
+         Water tank Vol.
+       </a>
+     </li>
+     <li>
+      <a href="#">
+        Paint
+      </a>
+    </li>
+    </ul>
+    </div> 
+
+    <div class="estimator">
+      <div class="content.1">
+        <p class="est">Estimator</p>
+        <div class="portlet-title">
+          <h2 class="const" title="Construction Cost Calculator | House Construction Cost Calculator">
+                Construction Cost Estimator    
+              
+          </h2>
+        </div>
+        
+        <div class="inputarea">
+        <ul class="areaoconst">
+          <li>
+            <p>Area of Construction</p>
+          </li>
+        </ul>
+
+          <input name="txtarea" type="text" value="1000" maxlength="7" id="txtareaofco-st" title="Enter builtup square feet"   class="textarea" >
+          <span class="input-group-addon bold">ft <sup>2</sup>
+           </span>
+
+         <ul class="inputcost">
+           <li>
+            <p>Approx Cost (Per Square Feet)</p>
+           </li>
+         </ul>  
+         <input name="ApproxCost" type="text" value="1000" maxlength="7" id="ApproxCost" title="Enter approx cost per
+             square feet" class="form-control" >
+            <span class="input-group-addon bold">Rs.</span>
+
+            <div class="form-actions text-right">
+              <input type="submit" name="Calculate" value="Calculate"  id="btn_submit" title="Calculate Cost" class="btn blue">
+              <input type="submit" name="Reset" value="Reset" id="btn_Reset" title="Reset" class="btn red">
+              </div>
+             </div>
+            </div>
+
+          <div class="outputstruct">
+            <div class="content.2">
+              <div class="portlet-title">
+                <h2 class="const" title="Construction Cost Calculator | House Construction Cost Calculator">
+                  Approximate cost on various work of material
+                    
+                </h2>
+              </div>
+           
+             <div class="potlet-output">
+              <ul class="list-group">
+                <li class="list-group-item">Cement (16.4 %)
+                 <span class="label label-primary pull-right">
+                  <span id="CementAmount">100
+                  </span>
+                </span>
+                </li>
+                <li class="list-group-item">Sand (12.3 %)
+                 <span class="label label-info pull-right">
+                  <span id="SandAmount">
+                  </span>
+                </span>
+                </li>
+                <li class="list-group-item">Aggregate (7.4 %)
+                  <span class="label label-warning pull-right">
+                   <span id="AggregateAmount">
+                   </span>
+                 </span>
+                </li>
+                <li class="list-group-item">Steel (24.6 %)
+                  <span class="label label-success pull-right">
+                  <span id="SteelAmount">
+                  </span>
+                </span>
+                </li>
+                <li class="list-group-item bold">TOTAL COST
+                  <span class="label label-danger pull-right">
+                  <span id="TotalCost">
+                  </span>
+                </span>
+                </li>
+              </ul>
+            </div> 
+          </div>  
+        </div>
+
+    <div>
+      <footer class="footer">
+        <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F%3Fhl%3Den%26__coig_login%3D1" class="fa fa-instagram fa-3x"></a>
+    <a href="https://www.facebook.com/login.php/" class="fa fa-facebook fa-3x"></a>
+    <a href="https://www.linkedin.com/login" class="fa fa-linkedin fa-3x"></a>
+      </footer> 
+    </div>
+</div>
+ 
+</body>
+</html>

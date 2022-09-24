@@ -1,0 +1,149 @@
+
+      *{
+        margin: 0;
+        padding: 0;
+        
+      
+      }
+      .mainbody{
+        background-image: url("/ej-yao-D46mXLsQRJw-unsplash2.jpg");
+        background-repeat: no-repeat;
+        height: 100vh;
+        padding: 0 100px;
+        opacity: 85%;
+        display: flex;
+        background-size: cover;
+        
+      }
+
+      .topnav{
+        color: white;
+        margin:10px 5px;
+        
+      }
+      
+    
+      .nav{
+        display: flex;
+        overflow: hidden;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 20px 8%;
+        align-items: center;
+        justify-content: flex-end;
+      }
+      
+      .nav a {
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    float: right;
+    color: white;
+    font-size: 30px;
+    text-decoration-color: #000; 
+    font-style: normal;
+    font-variant: small-caps;
+    text-shadow: #000;   
+    display: inline;
+    margin:60px 40px;
+}
+
+.nav a:hover{
+  color: rgb(69, 69, 244);
+}
+      
+.dropdown{
+color: white;
+width: 800px;
+height: 800px;
+background: rgba(0, 0, 0, 0.71);
+box-shadow:0 50px 50 ;
+margin:250px 10px 15px;
+position: relative;
+border: 2px black;
+border-radius: 19px;
+}
+
+.content{
+font-size: 50px;
+}
+
+.navigation{
+font-size: 30px;
+top: 25px;
+border-top: 1px solid black;
+padding: 20px ;
+
+}
+
+.navigation li{
+list-style: none;
+margin: 25px 0;
+}
+
+.navigation li a{
+text-decoration: none;
+display: flex;
+align-items: center;
+color: rgb(255, 255, 255);
+font-size: 1.1em;
+transition: 0.25s;
+}
+
+.navigation li a:hover{
+color: rgb(197, 197, 215);
+}
+
+.navigation li a ion-icon{
+font-size: 1.6em;
+margin-right: 15px;
+}
+
+.brick{
+    width: 2000px;
+    height: 1000px;
+    background: rgba(0, 0, 0, 0.71);
+    box-shadow:0 50px 50 ;
+    margin: 60px;
+    position: relative;
+    border: 2px rgb(0, 0, 0);
+    border-radius: 19px;
+    margin:250px 200px 15px;
+    color: white;
+    }
+
+.footer{
+    background-color: rgba(255, 255, 255, 0.481);
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%; 
+    padding: 9px;
+    height: 7%;
+}
+
+.fa{
+    color: rgb(0, 0, 0);
+
+}
+
+.est{
+   text-align: center;
+   font-size: 40px;
+}
+
+.input-brick{
+    font-size: 30px;
+    top: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.637);
+    padding: 60px ;
+}
+
+
+ 
+
+  
+
